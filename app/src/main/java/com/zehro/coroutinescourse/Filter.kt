@@ -3,6 +3,12 @@ package com.zehro.coroutinescourse
 import android.graphics.Bitmap
 import android.graphics.Color
 
+/**
+ * Apply function
+ * Takes a full color Bitmap file
+ * Pixel by pixel it replaces each color with greyscale
+ * Returns the new black & white Bitmap
+ */
 object Filter {
 
     fun apply(source: Bitmap): Bitmap {
